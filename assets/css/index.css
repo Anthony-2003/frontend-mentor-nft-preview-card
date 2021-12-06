@@ -1,0 +1,110 @@
+/*Google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@100&display=swap');
+
+/*Colors*/
+
+:root {
+    /*Primary*/
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /*Neutral*/
+    --text-color:hsl(215, 34%, 60%);
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white-color: hsl(0, 0%, 100%);
+}
+
+/*Styles of main section below*/
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--main-bg);
+    height: 100vh;
+}
+
+/*Styles of nft box below*/
+
+.nft__box {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    width: 350px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.nft__img {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.nft__information__title {
+    color: var(--white-color);
+}
+
+.nft__information__paragraph {
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.nft__information__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--line-color);
+}
+
+.nft__information__bottom__box{
+    display: flex;
+}
+
+.nft__information__bottom__icon {
+ padding-right: 0.5rem;
+}
+
+.nft__information__bottom--etherum {
+    color: var(--cyan);
+}
+
+.nft__information__bottom--clock {
+    color: var(--soft-blue);
+}
+
+.nft__footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1rem;
+}
+
+.nft__footer__img{
+    width: 2rem;
+    border-radius: 20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    border: 1px solid var(--white-color);
+}
+
+.nft__footer__text {
+    padding-left: 1rem;
+    color: var(--soft-blue);
+}
+
+.nft__footer__span {
+    color: var(--white-color);
+}
