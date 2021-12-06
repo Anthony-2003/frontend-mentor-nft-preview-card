@@ -108,3 +108,9 @@
 .nft__footer__span {
     color: var(--white-color);
 }
+
+.nft__img,
+.nft__information__title,
+.nft__footer__span {
+    cursor: pointer;
+}
