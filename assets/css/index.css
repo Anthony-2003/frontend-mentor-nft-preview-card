@@ -155,3 +155,8 @@
 .nft__footer__span {
     cursor: pointer;
 }
+
+.nft__information__title:hover,
+.nft__footer__span:hover {
+    color:var(--cyan);
+}
